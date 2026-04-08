@@ -4,7 +4,7 @@ This repository contains the official code and analytical pipeline for the study
 
 ##  Repository Structure
 
-To ensure maximum reproducibility and logical flow, the analysis is divided into five modular Jupyter Notebooks:
+To ensure reproducibility and logical flow, the analysis is divided into five modular Jupyter Notebooks:
 
 * **`01_Influence_Maximization_and_Centrality.ipynb`**
   * Constructs the acupoint network, calculates topological centralities, and simulates information spread using the Independent Cascade Model (ICM).
