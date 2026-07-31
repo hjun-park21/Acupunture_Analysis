@@ -1,8 +1,14 @@
 # Acupoint Network Analysis for Primary Dysmenorrhea
 
-This repository contains the official code and analytical pipeline for the study on **Acupoint Network Analysis using Graph Convolutional Networks (GCN)** for primary dysmenorrhea. 
+[![DOI](https://img.shields.io/badge/DOI-10.2147%2FIJWH.S598657-blue.svg)](https://doi.org/10.2147/IJWH.S598657)
+[![PubMed](https://img.shields.io/badge/PubMed-42519501-success.svg)](https://pubmed.ncbi.nlm.nih.gov/42519501)
 
-##  Repository Structure
+This repository contains the official code and analytical pipeline for the study: 
+**"Network-Based Identification of Core Acupoints for Primary Dysmenorrhea: A Synthesis of Randomized Trial Prescriptions"** (Published in *International Journal of Women's Health*).
+
+* **Read the paper:** [PubMed](https://pubmed.ncbi.nlm.nih.gov/42519501) | [Publisher Site](https://doi.org/10.2147/IJWH.S598657)
+
+## Repository Structure
 
 To ensure reproducibility and logical flow, the analysis is divided into five modular Jupyter Notebooks:
 
@@ -17,9 +23,26 @@ To ensure reproducibility and logical flow, the analysis is divided into five mo
 * **`05_Temporal_Network.ipynb`**
   * Analyzes the evolutionary pattern of the acupoint network across different eras.
 
-##  Environment Setup
+## Environment Setup
 
 All analyses were conducted in **Python 3.12**. 
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Citation
+
+If you find this code or our paper useful in your research, please consider citing:
+
+```bibtex
+@article{lee2026network,
+  title={Network-Based Identification of Core Acupoints for Primary Dysmenorrhea: A Synthesis of Randomized Trial Prescriptions},
+  author={Lee, In-Seon and Park, Hyunjun and Kim, Junsuk},
+  journal={International Journal of Women's Health},
+  year={2026},
+  publisher={Dove Medical Press},
+  doi={10.2147/IJWH.S598657},
+  url={https://pubmed.ncbi.nlm.nih.gov/42519501}
+}
+```
